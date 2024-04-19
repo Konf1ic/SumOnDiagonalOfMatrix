@@ -23,7 +23,6 @@ namespace TinhTongDuongCheoChinh
             // Khởi tạo 
             int[,] matrix = new int[rows, cols];
 
-            // Giá trị 
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < cols; j++)
@@ -33,6 +32,7 @@ namespace TinhTongDuongCheoChinh
                 }
             }
 
+            // Tính đường chéo?
             int sum = 0;
             for (int i = 0; i < rows; i++)
             {
