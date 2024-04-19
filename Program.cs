@@ -13,7 +13,7 @@ namespace TinhTongDuongCheoChinh
             Console.Write("Enter col: ");
             int cols = int.Parse(Console.ReadLine());
 
-            // Kiểm tra kích thước 
+            // Ktra
             if (rows != cols)
             {
                 Console.WriteLine("Error: Matrix is not square!!!");
